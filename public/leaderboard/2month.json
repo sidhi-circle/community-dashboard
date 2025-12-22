@@ -1,6 +1,6 @@
 {
   "period": "2month",
-  "updatedAt": 1766406591452,
+  "updatedAt": 1766427706394,
   "startDate": "2025-10-23",
   "endDate": "2025-12-22",
   "hiddenRoles": [],
@@ -10,7 +10,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 40,
+      "total_points": 39,
       "activity_breakdown": {
         "PR opened": {
           "count": 10,
@@ -21,8 +21,8 @@
           "points": 15
         },
         "Issue opened": {
-          "count": 5,
-          "points": 5
+          "count": 4,
+          "points": 4
         }
       },
       "daily_activity": [
@@ -108,11 +108,6 @@
         },
         {
           "date": "2025-12-03",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-11-30",
           "count": 1,
           "points": 1
         }
@@ -667,6 +662,50 @@
       ]
     },
     {
+      "username": "ys748477-dotcom",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
+      "role": "Contributor",
+      "total_points": 6,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 4,
+          "points": 4
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-17",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-22",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-19",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-07",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-07",
+          "count": 1,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "manmeetsantre",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/190877081?v=4",
@@ -734,45 +773,6 @@
         },
         {
           "date": "2025-12-16",
-          "count": 1,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "ys748477-dotcom",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 3,
-          "points": 3
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-17",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-19",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-12-07",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-12-07",
           "count": 1,
           "points": 1
         }
@@ -1646,6 +1646,26 @@
         },
         {
           "date": "2025-12-03",
+          "count": 1,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "nishant530",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/206030473?v=4",
+      "role": "Contributor",
+      "total_points": 1,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-22",
           "count": 1,
           "points": 1
         }
@@ -2966,6 +2986,28 @@
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/123853301?v=4"
     },
     {
+      "slug": "issue-opened-3754466781",
+      "type": "Issue opened",
+      "title": "Minor grammar and clarity improvements in introductory documentation",
+      "occured_at": "2025-12-22T16:48:20Z",
+      "points": 1,
+      "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/469",
+      "contributor": "nishant530",
+      "contributor_name": "nishant530",
+      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/206030473?v=4"
+    },
+    {
+      "slug": "issue-opened-3753670280",
+      "type": "Issue opened",
+      "title": "Wire routing parity investigation: v0 simulator tightly couples wire geometry with transform/listener system",
+      "occured_at": "2025-12-22T12:41:11Z",
+      "points": 1,
+      "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/697",
+      "contributor": "ys748477-dotcom",
+      "contributor_name": "ys748477-dotcom",
+      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
+    },
+    {
       "slug": "issue-opened-3750862842",
       "type": "Issue opened",
       "title": "🐞 Bug - User Dropdown in Navbar fails to close on second click",
@@ -3426,17 +3468,6 @@
       "contributor": "Atharva7126",
       "contributor_name": "Atharva7126",
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/177391853?v=4"
-    },
-    {
-      "slug": "issue-opened-3677852210",
-      "type": "Issue opened",
-      "title": "Fix: Illustration and CTA layout responsiveness issues (992px–1200px) and footer year update",
-      "occured_at": "2025-11-30T14:44:27Z",
-      "points": 1,
-      "link": "https://github.com/CircuitVerse/Blog/issues/251",
-      "contributor": "naman79820",
-      "contributor_name": "naman79820",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
     }
   ],
   "topByActivity": {}

@@ -1,6 +1,6 @@
 {
   "period": "3week",
-  "updatedAt": 1766406584403,
+  "updatedAt": 1766427698472,
   "startDate": "2025-12-01",
   "endDate": "2025-12-22",
   "hiddenRoles": [],
@@ -564,6 +564,50 @@
       ]
     },
     {
+      "username": "ys748477-dotcom",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
+      "role": "Contributor",
+      "total_points": 6,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 4,
+          "points": 4
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-17",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-22",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-19",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-07",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-07",
+          "count": 1,
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "manmeetsantre",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/190877081?v=4",
@@ -631,79 +675,6 @@
         },
         {
           "date": "2025-12-16",
-          "count": 1,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "ys748477-dotcom",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 3,
-          "points": 3
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-17",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-19",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-12-07",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-12-07",
-          "count": 1,
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "akshitvigg",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
-      "role": "Contributor",
-      "total_points": 5,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-14",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-01",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-14",
           "count": 1,
           "points": 1
         }
@@ -862,31 +833,6 @@
       ]
     },
     {
-      "username": "hellseye",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/168416527?v=4",
-      "role": "Contributor",
-      "total_points": 4,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-01",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-01",
-          "count": 1,
-          "points": 2
-        }
-      ]
-    },
-    {
       "username": "Varshad-Potle",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/205039168?v=4",
@@ -910,6 +856,35 @@
         },
         {
           "date": "2025-12-21",
+          "count": 1,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "akshitvigg",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-14",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-14",
           "count": 1,
           "points": 1
         }
@@ -1392,6 +1367,26 @@
         },
         {
           "date": "2025-12-03",
+          "count": 1,
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "nishant530",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/206030473?v=4",
+      "role": "Contributor",
+      "total_points": 1,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-22",
           "count": 1,
           "points": 1
         }
@@ -2305,39 +2300,6 @@
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
     },
     {
-      "slug": "pr-opened-3682267931",
-      "type": "PR opened",
-      "title": "refactor:converted sequential.ts to TypeScript",
-      "occured_at": "2025-12-01T18:18:20Z",
-      "points": 2,
-      "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/682",
-      "contributor": "akshitvigg",
-      "contributor_name": "akshitvigg",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
-    },
-    {
-      "slug": "pr-opened-3682138794",
-      "type": "PR opened",
-      "title": "Fix responsive layout issues in CTA section and  footer year",
-      "occured_at": "2025-12-01T17:43:22Z",
-      "points": 2,
-      "link": "https://github.com/CircuitVerse/Blog/pull/254",
-      "contributor": "hellseye",
-      "contributor_name": "hellseye",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168416527?v=4"
-    },
-    {
-      "slug": "pr-opened-3682096266",
-      "type": "PR opened",
-      "title": "Fix responsive layout issues in CTA section and add dynamic footer year",
-      "occured_at": "2025-12-01T17:35:01Z",
-      "points": 2,
-      "link": "https://github.com/CircuitVerse/Blog/pull/253",
-      "contributor": "hellseye",
-      "contributor_name": "hellseye",
-      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168416527?v=4"
-    },
-    {
       "slug": "pr-merged-3750110457",
       "type": "PR Merged",
       "title": "chore: install netcat-openbsd and fix bundler setup in devcontainer",
@@ -2479,6 +2441,28 @@
       "contributor": "naman79820",
       "contributor_name": "naman79820",
       "contributor_avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4"
+    },
+    {
+      "slug": "issue-opened-3754466781",
+      "type": "Issue opened",
+      "title": "Minor grammar and clarity improvements in introductory documentation",
+      "occured_at": "2025-12-22T16:48:20Z",
+      "points": 1,
+      "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/469",
+      "contributor": "nishant530",
+      "contributor_name": "nishant530",
+      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/206030473?v=4"
+    },
+    {
+      "slug": "issue-opened-3753670280",
+      "type": "Issue opened",
+      "title": "Wire routing parity investigation: v0 simulator tightly couples wire geometry with transform/listener system",
+      "occured_at": "2025-12-22T12:41:11Z",
+      "points": 1,
+      "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/697",
+      "contributor": "ys748477-dotcom",
+      "contributor_name": "ys748477-dotcom",
+      "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
     },
     {
       "slug": "issue-opened-3750862842",
