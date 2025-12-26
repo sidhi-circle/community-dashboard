@@ -203,8 +203,8 @@ export default function LeaderboardView({
         <div className="flex-1 min-w-0">
           {/* Header */}
           <div className="mb-8">
-            <div className="flex items-start justify-between mb-4">
-              <div>
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between mb-4">
+              <div className="min-w-0">
                 <h1 className="text-4xl text-[#50B78B] font-bold mb-2">
                   {periodLabels[period]} Leaderboard
                 </h1>
@@ -215,9 +215,10 @@ export default function LeaderboardView({
               </div>
 
               {/* Filters */}
-              <div className="flex items-center gap-2">
+              <div className="flex flex-col gap-2 w-full sm:w-auto sm:flex-row sm:items-center sm:justify-end">
+
                 {/* Search Bar */}
-                <div className="relative">
+                <div className="relative w-full sm:w-auto sm:min-w-[16rem]">
                   <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                   <Input
                     type="text"
@@ -225,7 +226,7 @@ export default function LeaderboardView({
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="
-                      pl-9 h-9 w-64 bg-white dark:bg-[#07170f] border border-[#50B78B]/60 dark:border-[#50B78B]/40 text-foreground dark:text-foreground shadow-sm dark:shadow-none outline-none focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#50B78B] focus-visible:ring-offset-0 transition-colors
+                      pl-9 h-9 w-full sm:w-64 bg-white dark:bg-[#07170f] border border-[#50B78B]/60 dark:border-[#50B78B]/40 text-foreground dark:text-foreground shadow-sm dark:shadow-none outline-none focus:outline-none focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#50B78B] focus-visible:ring-offset-0 transition-colors
                     "
                   />
                 </div>
@@ -233,64 +234,66 @@ export default function LeaderboardView({
                 {/* Role Filter */}
                 {availableRoles.length > 0 && (
                   <>
-                    {(selectedRoles.size > 0 || searchQuery) && (
-                      <Button
-                        variant="ghost"
-                        size="sm"
-                        onClick={clearFilters}
-                        className="h-9 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none"
-                      >
-                        <X className="h-4 w-4 mr-1" />
-                        Clear
-                      </Button>
-                    )}
-                    <Popover>
-                      <PopoverTrigger asChild>
+                    <div className="flex flex-row items-center gap-2 w-full sm:w-auto sm:flex-row sm:items-center sm:gap-2 justify-between sm:justify-start">
+                      {(selectedRoles.size > 0 || searchQuery) && (
                         <Button
-                          variant="outline"
+                          variant="ghost"
                           size="sm"
-                          className="h-9 border border-[#50B78B]/30 dark:border-[#50B78B]/30 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none"
+                          onClick={clearFilters}
+                          className="h-9 shrink-0 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none order-2 sm:order-1"
                         >
-                          <Filter className="h-4 w-4 mr-2" />
-                          Role
-                          {selectedRoles.size > 0 && (
-                            <span className="ml-1 px-1.5 py-0.5 text-xs rounded-full bg-[#50B78B] text-white">
-                              {selectedRoles.size}
-                            </span>
-                          )}
+                          <X className="h-4 w-4 mr-1" />
+                          Clear
                         </Button>
-                      </PopoverTrigger>
-                      <PopoverContent
-                        className="w-64 bg-white dark:bg-[#07170f]"
-                        align="end"
-                      >
-                        <div className="space-y-4">
-                          <h4 className="font-medium text-sm">
-                            Filter by Role
-                          </h4>
-                          <div className="space-y-2 max-h-64 overflow-y-auto">
-                            {availableRoles.map((role) => (
-                              <div
-                                key={role}
-                                className="flex items-center space-x-2"
-                              >
-                                <Checkbox
-                                  id={role}
-                                  checked={selectedRoles.has(role)}
-                                  onCheckedChange={() => toggleRole(role)}
-                                />
-                                <label
-                                  htmlFor={role}
-                                  className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+                      )}
+                      <Popover>
+                        <PopoverTrigger asChild>
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="h-9 w-[min(11rem,calc(100%-6rem))] px-1 has-[>svg]:px-1 sm:w-auto sm:px-3 sm:has-[>svg]:px-2.5 border border-[#50B78B]/30 dark:border-[#50B78B]/30 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none min-w-0 order-1 sm:order-2"
+                          >
+                            <Filter className="h-4 w-4 mr-1.5 sm:mr-2" />
+                            Role
+                            {selectedRoles.size > 0 && (
+                              <span className="ml-0.5 sm:ml-1 px-1.5 py-0.5 text-xs rounded-full bg-[#50B78B] text-white">
+                                {selectedRoles.size}
+                              </span>
+                            )}
+                          </Button>
+                        </PopoverTrigger>
+                        <PopoverContent
+                          className="w-64 max-w-[calc(100vw-2rem)] bg-white dark:bg-[#07170f]"
+                          align="end"
+                        >
+                          <div className="space-y-4">
+                            <h4 className="font-medium text-sm">
+                              Filter by Role
+                            </h4>
+                            <div className="space-y-2 max-h-64 overflow-y-auto">
+                              {availableRoles.map((role) => (
+                                <div
+                                  key={role}
+                                  className="flex items-center space-x-2"
                                 >
-                                  {role}
-                                </label>
-                              </div>
-                            ))}
+                                  <Checkbox
+                                    id={role}
+                                    checked={selectedRoles.has(role)}
+                                    onCheckedChange={() => toggleRole(role)}
+                                  />
+                                  <label
+                                    htmlFor={role}
+                                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+                                  >
+                                    {role}
+                                  </label>
+                                </div>
+                              ))}
+                            </div>
                           </div>
-                        </div>
-                      </PopoverContent>
-                    </Popover>
+                        </PopoverContent>
+                      </Popover>
+                    </div>
                   </>
                 )}
               </div>
@@ -306,7 +309,7 @@ export default function LeaderboardView({
                 className={cn(
                   "px-4 py-2 font-medium transition-colors border-b-2 relative outline-none focus-visible:ring-2 focus-visible:ring-[#50B78B]/60 rounded-sm",
                   period === p
-                    ? "border-[#50B78B] text-[#50B78B] bg-gradient-to-t from-[#50B78B]/12 to-transparent dark:from-[#50B78B]/12"
+                    ? "border-[#50B78B] text-[#50B78B] bg-linear-to-t from-[#50B78B]/12 to-transparent dark:from-[#50B78B]/12"
                     : "border-transparent text-muted-foreground hover:text-[#50B78B]"
                 )}
               >
@@ -339,7 +342,8 @@ export default function LeaderboardView({
                     )}
                   >
                     <CardContent>
-                      <div className="flex items-center gap-6">
+                  <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
+
                         {/* Rank */}
                         <div className="flex items-center justify-center size-12 shrink-0">
                           {getRankIcon(rank) || (
@@ -413,6 +417,7 @@ export default function LeaderboardView({
 
                         {/* Total Points with Trend Chart */}
                         <div className="flex items-center gap-4 shrink-0">
+                          <div className="hidden sm:block">
                           {/* Activity Trend Chart */}
                           {entry.daily_activity &&
                             entry.daily_activity.length > 0 && (
@@ -422,7 +427,7 @@ export default function LeaderboardView({
                                 endDate={endDate}
                                 mode="points"
                               />
-                            )}
+                            )}</div>
                           <div className="text-right">
                             <div className="text-3xl font-bold text-[#50B78B]">
                               {entry.total_points}
@@ -511,4 +516,4 @@ export default function LeaderboardView({
       </div>
     </div>
   );
-}
+}  
