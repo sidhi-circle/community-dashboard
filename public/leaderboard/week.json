@@ -1,6 +1,6 @@
 {
   "period": "week",
-  "updatedAt": 1767162274274,
+  "updatedAt": 1767184169963,
   "startDate": "2025-12-24",
   "endDate": "2025-12-31",
   "hiddenRoles": [],
@@ -1962,9 +1962,9 @@
       ]
     },
     {
-      "username": "ghanshyam2005singh",
+      "username": "vivekyadav-3",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
       "role": "Contributor",
       "total_points": 5,
       "activity_breakdown": {
@@ -1979,41 +1979,51 @@
       },
       "daily_activity": [
         {
-          "date": "2025-12-24",
-          "count": 3,
-          "points": 5
+          "date": "2025-12-31",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-29",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-30",
+          "count": 1,
+          "points": 1
         }
       ],
       "activities": [
         {
           "type": "PR opened",
-          "title": "feat - add hover functionality to Getting Started dropdown",
-          "occured_at": "2025-12-24T11:52:20Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6502",
+          "title": "feat - implement server-side contribution streaks and longest streak tracking",
+          "occured_at": "2025-12-31T06:49:55Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/55",
           "points": 2,
-          "contributor": "ghanshyam2005singh",
+          "contributor": "vivekyadav-3",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
         },
         {
           "type": "PR opened",
-          "title": "Fix - Update form control focus border and add green box-shadow",
-          "occured_at": "2025-12-24T08:52:11Z",
-          "link": "https://github.com/CircuitVerse/Blog/pull/258",
+          "title": "fix - improve spacing between CAPTCHA and login button",
+          "occured_at": "2025-12-29T06:43:44Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6520",
           "points": 2,
-          "contributor": "ghanshyam2005singh",
+          "contributor": "vivekyadav-3",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
         },
         {
           "type": "Issue opened",
-          "title": "Enhancement - Add hover-to-open functionality for \"Getting Started\" navbar dropdown",
-          "occured_at": "2025-12-24T11:44:46Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6501",
+          "title": "Enhancement - Add Contribution Streaks to User Profiles",
+          "occured_at": "2025-12-30T18:24:11Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/49",
           "points": 1,
-          "contributor": "ghanshyam2005singh",
+          "contributor": "vivekyadav-3",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
         }
       ]
     },
@@ -2264,57 +2274,6 @@
       ]
     },
     {
-      "username": "vivekyadav-3",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-29",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-30",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "fix - improve spacing between CAPTCHA and login button",
-          "occured_at": "2025-12-29T06:43:44Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6520",
-          "points": 2,
-          "contributor": "vivekyadav-3",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Enhancement - Add Contribution Streaks to User Profiles",
-          "occured_at": "2025-12-30T18:24:11Z",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/49",
-          "points": 1,
-          "contributor": "vivekyadav-3",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
-        }
-      ]
-    },
-    {
       "username": "yashveer-1",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
@@ -2491,38 +2450,6 @@
           "contributor": "anjaneyulu-01",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/233932281?v=4"
-        }
-      ]
-    },
-    {
-      "username": "nishant530",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/206030473?v=4",
-      "role": "Contributor",
-      "total_points": 1,
-      "activity_breakdown": {
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-24",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "Issue opened",
-          "title": "Improve search bar UX - center alignment and inline search behavior",
-          "occured_at": "2025-12-24T08:23:47Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/471",
-          "points": 1,
-          "contributor": "nishant530",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/206030473?v=4"
         }
       ]
     },

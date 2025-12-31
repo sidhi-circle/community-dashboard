@@ -1,9 +1,17 @@
 {
-  "updatedAt": 1767162274294,
+  "updatedAt": 1767184169984,
   "groups": [
     {
       "date": "2025-12-31",
       "items": [
+        {
+          "username": "vivekyadav-3",
+          "name": null,
+          "title": "feat - implement server-side contribution streaks and longest streak tracking",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/55",
+          "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
+          "points": 2
+        },
         {
           "username": "omkarrr2533",
           "name": null,
@@ -138,6 +146,14 @@
           "points": 1
         },
         {
+          "username": "vivekyadav-3",
+          "name": null,
+          "title": "Enhancement - Add Contribution Streaks to User Profiles",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/49",
+          "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
+          "points": 1
+        },
+        {
           "username": "star-warrior",
           "name": null,
           "title": "Explore page fix + UI change",
@@ -159,14 +175,6 @@
           "title": "Improve macOS local setup documentation (Node.js, Redis, PostgreSQL, RSA keys)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6527",
           "avatar_url": "https://avatars.githubusercontent.com/u/161142634?v=4",
-          "points": 1
-        },
-        {
-          "username": "vivekyadav-3",
-          "name": null,
-          "title": "Enhancement - Add Contribution Streaks to User Profiles",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/49",
-          "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
           "points": 1
         }
       ]
@@ -255,6 +263,14 @@
           "points": 2
         },
         {
+          "username": "vivekyadav-3",
+          "name": null,
+          "title": "fix - improve spacing between CAPTCHA and login button",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6520",
+          "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
+          "points": 2
+        },
+        {
           "username": "KARDT89",
           "name": null,
           "title": "issue-6522/fix-navbar-logo-alignment",
@@ -285,14 +301,6 @@
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/42",
           "avatar_url": "https://avatars.githubusercontent.com/u/85290538?v=4",
           "points": 1
-        },
-        {
-          "username": "vivekyadav-3",
-          "name": null,
-          "title": "fix - improve spacing between CAPTCHA and login button",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6520",
-          "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
-          "points": 2
         },
         {
           "username": "riazation42",

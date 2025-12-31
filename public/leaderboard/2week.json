@@ -1,6 +1,6 @@
 {
   "period": "2week",
-  "updatedAt": 1767162274276,
+  "updatedAt": 1767184169965,
   "startDate": "2025-12-17",
   "endDate": "2025-12-31",
   "hiddenRoles": [],
@@ -1988,57 +1988,6 @@
       ]
     },
     {
-      "username": "webbsssss",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/250015813?v=4",
-      "role": "Contributor",
-      "total_points": 7,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 5
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-17",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-18",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "fix - update Brewfile for current homebrew versions",
-          "occured_at": "2025-12-17T10:29:54Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6478",
-          "points": 2,
-          "contributor": "webbsssss",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/250015813?v=4"
-        },
-        {
-          "type": "PR merged",
-          "title": "fix - update Brewfile for current homebrew versions",
-          "occured_at": "2025-12-18T11:09:35Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6478",
-          "points": 5,
-          "contributor": "webbsssss",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/250015813?v=4"
-        }
-      ]
-    },
-    {
       "username": "ViRUS-0-0",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
@@ -2111,97 +2060,6 @@
           "contributor": "ViRUS-0-0",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4"
-        }
-      ]
-    },
-    {
-      "username": "yashveer-1",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
-      "role": "Contributor",
-      "total_points": 6,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 4,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-17",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-26",
-          "count": 2,
-          "points": 2
-        },
-        {
-          "date": "2025-12-22",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-12-19",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "Add documentation for simulator circuit data flow",
-          "occured_at": "2025-12-17T09:01:35Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/695",
-          "points": 2,
-          "contributor": "yashveer-1",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "🐞 Bug - Canvas does not fully redraw after resize (DevTools toggle) in v0 simulator",
-          "occured_at": "2025-12-26T11:52:45Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/700",
-          "points": 1,
-          "contributor": "yashveer-1",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Wire routing parity investigation - v0 simulator tightly couples wire geometry with transform/listener system",
-          "occured_at": "2025-12-22T12:41:11Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/697",
-          "points": 1,
-          "contributor": "yashveer-1",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "🐞 Bug - Wire routing parity issue - cv-frontend-vue does not support orthogonal (zig-zag) wires",
-          "occured_at": "2025-12-19T10:02:40Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/696",
-          "points": 1,
-          "contributor": "yashveer-1",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "🐞 Bug - Canvas does not fully redraw after resize (DevTools toggle) in v0 simulator",
-          "occured_at": "2025-12-26T11:52:45Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/700",
-          "points": 1,
-          "contributor": "yashveer-1",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
         }
       ]
     },
@@ -2361,6 +2219,176 @@
           "contributor": "ghanshyam2005singh",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
+        }
+      ]
+    },
+    {
+      "username": "webbsssss",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/250015813?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR merged": {
+          "count": 1,
+          "points": 5
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-18",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR merged",
+          "title": "fix - update Brewfile for current homebrew versions",
+          "occured_at": "2025-12-18T11:09:35Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6478",
+          "points": 5,
+          "contributor": "webbsssss",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/250015813?v=4"
+        }
+      ]
+    },
+    {
+      "username": "vivekyadav-3",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-31",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-29",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-30",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "feat - implement server-side contribution streaks and longest streak tracking",
+          "occured_at": "2025-12-31T06:49:55Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/55",
+          "points": 2,
+          "contributor": "vivekyadav-3",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "fix - improve spacing between CAPTCHA and login button",
+          "occured_at": "2025-12-29T06:43:44Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6520",
+          "points": 2,
+          "contributor": "vivekyadav-3",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Enhancement - Add Contribution Streaks to User Profiles",
+          "occured_at": "2025-12-30T18:24:11Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/49",
+          "points": 1,
+          "contributor": "vivekyadav-3",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
+        }
+      ]
+    },
+    {
+      "username": "yashveer-1",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
+      "role": "Contributor",
+      "total_points": 4,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 4,
+          "points": 4
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-26",
+          "count": 2,
+          "points": 2
+        },
+        {
+          "date": "2025-12-22",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-19",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "title": "🐞 Bug - Canvas does not fully redraw after resize (DevTools toggle) in v0 simulator",
+          "occured_at": "2025-12-26T11:52:45Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/700",
+          "points": 1,
+          "contributor": "yashveer-1",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Wire routing parity investigation - v0 simulator tightly couples wire geometry with transform/listener system",
+          "occured_at": "2025-12-22T12:41:11Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/697",
+          "points": 1,
+          "contributor": "yashveer-1",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "🐞 Bug - Wire routing parity issue - cv-frontend-vue does not support orthogonal (zig-zag) wires",
+          "occured_at": "2025-12-19T10:02:40Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/696",
+          "points": 1,
+          "contributor": "yashveer-1",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "🐞 Bug - Canvas does not fully redraw after resize (DevTools toggle) in v0 simulator",
+          "occured_at": "2025-12-26T11:52:45Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/700",
+          "points": 1,
+          "contributor": "yashveer-1",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
         }
       ]
     },
@@ -2803,57 +2831,6 @@
           "contributor": "gautamsidhwani29",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/85290538?v=4"
-        }
-      ]
-    },
-    {
-      "username": "vivekyadav-3",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-29",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-30",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "fix - improve spacing between CAPTCHA and login button",
-          "occured_at": "2025-12-29T06:43:44Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6520",
-          "points": 2,
-          "contributor": "vivekyadav-3",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Enhancement - Add Contribution Streaks to User Profiles",
-          "occured_at": "2025-12-30T18:24:11Z",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/49",
-          "points": 1,
-          "contributor": "vivekyadav-3",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
         }
       ]
     },

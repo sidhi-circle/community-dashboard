@@ -1,6 +1,6 @@
 {
   "period": "2month",
-  "updatedAt": 1767162274283,
+  "updatedAt": 1767184169972,
   "startDate": "2025-11-01",
   "endDate": "2025-12-31",
   "hiddenRoles": [],
@@ -4244,6 +4244,72 @@
       ]
     },
     {
+      "username": "vivekyadav-3",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-31",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-29",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-30",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "feat - implement server-side contribution streaks and longest streak tracking",
+          "occured_at": "2025-12-31T06:49:55Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/55",
+          "points": 2,
+          "contributor": "vivekyadav-3",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "fix - improve spacing between CAPTCHA and login button",
+          "occured_at": "2025-12-29T06:43:44Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6520",
+          "points": 2,
+          "contributor": "vivekyadav-3",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Enhancement - Add Contribution Streaks to User Profiles",
+          "occured_at": "2025-12-30T18:24:11Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/49",
+          "points": 1,
+          "contributor": "vivekyadav-3",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
+        }
+      ]
+    },
+    {
       "username": "prasanth-30011",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/221947950?v=4",
@@ -5036,57 +5102,6 @@
           "contributor": "gautamsidhwani29",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/85290538?v=4"
-        }
-      ]
-    },
-    {
-      "username": "vivekyadav-3",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-29",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-30",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "fix - improve spacing between CAPTCHA and login button",
-          "occured_at": "2025-12-29T06:43:44Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6520",
-          "points": 2,
-          "contributor": "vivekyadav-3",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Enhancement - Add Contribution Streaks to User Profiles",
-          "occured_at": "2025-12-30T18:24:11Z",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/49",
-          "points": 1,
-          "contributor": "vivekyadav-3",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/210567772?v=4"
         }
       ]
     },
