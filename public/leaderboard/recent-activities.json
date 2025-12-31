@@ -1,9 +1,49 @@
 {
-  "updatedAt": 1767184169984,
+  "updatedAt": 1767205346319,
   "groups": [
     {
       "date": "2025-12-31",
       "items": [
+        {
+          "username": "senutpal",
+          "name": null,
+          "title": "fix - add white background to improve image visibility in dark mode",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/484",
+          "avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4",
+          "points": 2
+        },
+        {
+          "username": "himanshujays29",
+          "name": null,
+          "title": "Fix contributor name overflow in profile card layout",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/56",
+          "avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4",
+          "points": 2
+        },
+        {
+          "username": "himanshujays29",
+          "name": null,
+          "title": "chore - update aws-sdk-s3 to fix security vulnerability",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6535",
+          "avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4",
+          "points": 2
+        },
+        {
+          "username": "haaasini01",
+          "name": null,
+          "title": "Remove stray char from truth table in Canonical Functions subchapter",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/745",
+          "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
+          "points": 2
+        },
+        {
+          "username": "haaasini01",
+          "name": null,
+          "title": "Stray character displayed in the truth table in Canonical Functions subchapterz",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/744",
+          "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
+          "points": 1
+        },
         {
           "username": "vivekyadav-3",
           "name": null,
@@ -122,14 +162,6 @@
           "points": 1
         },
         {
-          "username": "ViRUS-0-0",
-          "name": null,
-          "title": "fixed statement timeout issue caused by paginated urls",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6531",
-          "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
-          "points": 2
-        },
-        {
           "username": "haaasini01",
           "name": null,
           "title": "justify text alignment in documentation",
@@ -144,6 +176,14 @@
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/482",
           "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
           "points": 1
+        },
+        {
+          "username": "ViRUS-0-0",
+          "name": null,
+          "title": "fixed statement timeout issue caused by paginated urls",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6531",
+          "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
+          "points": 2
         },
         {
           "username": "vivekyadav-3",
@@ -388,22 +428,6 @@
           "points": 1
         },
         {
-          "username": "ViRUS-0-0",
-          "name": null,
-          "title": "fixed ArgumentError - invalid value for Integer()",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6516",
-          "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
-          "points": 2
-        },
-        {
-          "username": "ViRUS-0-0",
-          "name": null,
-          "title": "🐞 Bug - Blocked Alert when refreshing an unsaved simulator circuit",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6519",
-          "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
-          "points": 1
-        },
-        {
           "username": "haaasini01",
           "name": null,
           "title": "Enhancement - Add Boolean expressions to all logic gates in Chapter 4",
@@ -417,6 +441,22 @@
           "title": "Enhancement - Boolean expressions for logic gates in Chapter 4",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/476",
           "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
+          "points": 1
+        },
+        {
+          "username": "ViRUS-0-0",
+          "name": null,
+          "title": "fixed ArgumentError - invalid value for Integer()",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6516",
+          "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
+          "points": 2
+        },
+        {
+          "username": "ViRUS-0-0",
+          "name": null,
+          "title": "🐞 Bug - Blocked Alert when refreshing an unsaved simulator circuit",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6519",
+          "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
           "points": 1
         },
         {
@@ -531,7 +571,7 @@
         {
           "username": "manmeetsantre",
           "name": null,
-          "title": "CircuitVerse Logo on Top-Left Does Not Redirect to Main Website",
+          "title": "CircuitVerse Logo in Footer Does Not Redirect to Main Website",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/37",
           "avatar_url": "https://avatars.githubusercontent.com/u/190877081?v=4",
           "points": 1

@@ -1,6 +1,6 @@
 {
   "period": "week",
-  "updatedAt": 1767184169963,
+  "updatedAt": 1767205346299,
   "startDate": "2025-12-24",
   "endDate": "2025-12-31",
   "hiddenRoles": [],
@@ -561,7 +561,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 36,
+      "total_points": 35,
       "activity_breakdown": {
         "PR opened": {
           "count": 7,
@@ -572,8 +572,8 @@
           "points": 20
         },
         "Issue opened": {
-          "count": 2,
-          "points": 2
+          "count": 1,
+          "points": 1
         }
       },
       "daily_activity": [
@@ -596,11 +596,6 @@
           "date": "2025-12-28",
           "count": 2,
           "points": 3
-        },
-        {
-          "date": "2025-12-24",
-          "count": 1,
-          "points": 1
         }
       ],
       "activities": [
@@ -710,16 +705,6 @@
           "occured_at": "2025-12-26T14:09:02Z",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/18",
           "points": 5,
-          "contributor": "Me-Priyank",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Docs Website Performance Issue - Large Unused JavaScript & CSS and Low Code Coverage (27%)",
-          "occured_at": "2025-12-24T18:06:26Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/472",
-          "points": 1,
           "contributor": "Me-Priyank",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4"
@@ -1183,125 +1168,15 @@
       ]
     },
     {
-      "username": "senutpal",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4",
-      "role": "Contributor",
-      "total_points": 17,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 3,
-          "points": 6
-        },
-        "PR merged": {
-          "count": 2,
-          "points": 10
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-30",
-          "count": 2,
-          "points": 4
-        },
-        {
-          "date": "2025-12-29",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-25",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-12-24",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2025-12-28",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "docs - add workarounds for application.js and CRLF errors in troubleshooting guide",
-          "occured_at": "2025-12-30T11:59:48Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6528",
-          "points": 2,
-          "contributor": "senutpal",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "fix - resolve Tauri Desktop Release CI/CD failures on all platforms",
-          "occured_at": "2025-12-30T09:27:26Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/706",
-          "points": 2,
-          "contributor": "senutpal",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "refactor - migrate restrictedElementDiv.js to TypeScript",
-          "occured_at": "2025-12-29T14:58:57Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/705",
-          "points": 2,
-          "contributor": "senutpal",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
-        },
-        {
-          "type": "PR merged",
-          "title": "docs - fix typos and grammar errors in chapters 2-7",
-          "occured_at": "2025-12-25T08:49:36Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/465",
-          "points": 5,
-          "contributor": "senutpal",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
-        },
-        {
-          "type": "PR merged",
-          "title": "docs - fix typo 'scoll' to 'scroll' in keyboard shortcuts documentation",
-          "occured_at": "2025-12-24T17:09:02Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/459",
-          "points": 5,
-          "contributor": "senutpal",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "🐞 Bug - Tauri Desktop Release CI/CD workflow fails on all platforms (Windows, Ubuntu, macOS)",
-          "occured_at": "2025-12-28T20:44:57Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/704",
-          "points": 1,
-          "contributor": "senutpal",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
-        }
-      ]
-    },
-    {
       "username": "himanshujays29",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4",
       "role": "Contributor",
-      "total_points": 12,
+      "total_points": 16,
       "activity_breakdown": {
         "PR opened": {
-          "count": 2,
-          "points": 4
+          "count": 4,
+          "points": 8
         },
         "PR merged": {
           "count": 1,
@@ -1313,6 +1188,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2025-12-31",
+          "count": 2,
+          "points": 4
+        },
         {
           "date": "2025-12-29",
           "count": 4,
@@ -1330,6 +1210,26 @@
         }
       ],
       "activities": [
+        {
+          "type": "PR opened",
+          "title": "Fix contributor name overflow in profile card layout",
+          "occured_at": "2025-12-31T16:33:42Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/56",
+          "points": 2,
+          "contributor": "himanshujays29",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "chore - update aws-sdk-s3 to fix security vulnerability",
+          "occured_at": "2025-12-31T14:46:16Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6535",
+          "points": 2,
+          "contributor": "himanshujays29",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4"
+        },
         {
           "type": "PR opened",
           "title": "fix(ui) - improve leaderboard search layout",
@@ -1389,6 +1289,116 @@
           "contributor": "himanshujays29",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4"
+        }
+      ]
+    },
+    {
+      "username": "senutpal",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4",
+      "role": "Contributor",
+      "total_points": 14,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 4,
+          "points": 8
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-31",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-30",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2025-12-29",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-25",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2025-12-28",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "fix - add white background to improve image visibility in dark mode",
+          "occured_at": "2025-12-31T17:01:43Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/484",
+          "points": 2,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "docs - add workarounds for application.js and CRLF errors in troubleshooting guide",
+          "occured_at": "2025-12-30T11:59:48Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6528",
+          "points": 2,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "fix - resolve Tauri Desktop Release CI/CD failures on all platforms",
+          "occured_at": "2025-12-30T09:27:26Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/706",
+          "points": 2,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "refactor - migrate restrictedElementDiv.js to TypeScript",
+          "occured_at": "2025-12-29T14:58:57Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/705",
+          "points": 2,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
+        },
+        {
+          "type": "PR merged",
+          "title": "docs - fix typos and grammar errors in chapters 2-7",
+          "occured_at": "2025-12-25T08:49:36Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/465",
+          "points": 5,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "🐞 Bug - Tauri Desktop Release CI/CD workflow fails on all platforms (Windows, Ubuntu, macOS)",
+          "occured_at": "2025-12-28T20:44:57Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/704",
+          "points": 1,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
         }
       ]
     },
@@ -1454,163 +1464,98 @@
       ]
     },
     {
-      "username": "SouparnaChatterjee",
+      "username": "haaasini01",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
       "role": "Contributor",
-      "total_points": 8,
+      "total_points": 9,
       "activity_breakdown": {
         "PR opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue opened": {
-          "count": 4,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-26",
-          "count": 4,
+          "count": 3,
           "points": 6
         },
-        {
-          "date": "2025-12-25",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-12-24",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "feat(simulator) - add confirmation dialog before clearing canvas",
-          "occured_at": "2025-12-26T20:24:59Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/702",
-          "points": 2,
-          "contributor": "SouparnaChatterjee",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "feat(simulator) - add confirmation dialog before clearing canvas",
-          "occured_at": "2025-12-26T20:24:59Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/702",
-          "points": 2,
-          "contributor": "SouparnaChatterjee",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Feature - Add confirmation dialog before clearing Vue simulator canvas",
-          "occured_at": "2025-12-26T19:31:59Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/701",
-          "points": 1,
-          "contributor": "SouparnaChatterjee",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Drag panel position handling & text-selection behavior in Vue simulator",
-          "occured_at": "2025-12-25T16:07:24Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/699",
-          "points": 1,
-          "contributor": "SouparnaChatterjee",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "perf - improve draggable panel performance in simulator",
-          "occured_at": "2025-12-24T13:38:03Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6504",
-          "points": 1,
-          "contributor": "SouparnaChatterjee",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Feature - Add confirmation dialog before clearing Vue simulator canvas",
-          "occured_at": "2025-12-26T19:31:59Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/701",
-          "points": 1,
-          "contributor": "SouparnaChatterjee",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
-        }
-      ]
-    },
-    {
-      "username": "akshitvigg",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
-      "role": "Contributor",
-      "total_points": 8,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 5
-        },
         "Issue opened": {
-          "count": 1,
-          "points": 1
+          "count": 3,
+          "points": 3
         }
       },
       "daily_activity": [
+        {
+          "date": "2025-12-31",
+          "count": 2,
+          "points": 3
+        },
         {
           "date": "2025-12-30",
           "count": 2,
           "points": 3
         },
         {
-          "date": "2025-12-24",
-          "count": 1,
-          "points": 5
+          "date": "2025-12-28",
+          "count": 2,
+          "points": 3
         }
       ],
       "activities": [
         {
           "type": "PR opened",
-          "title": "docs - fix duplicated words in documentation",
-          "occured_at": "2025-12-30T11:27:27Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/481",
+          "title": "Remove stray char from truth table in Canonical Functions subchapter",
+          "occured_at": "2025-12-31T15:47:16Z",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/745",
           "points": 2,
-          "contributor": "akshitvigg",
+          "contributor": "haaasini01",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
         },
         {
-          "type": "PR merged",
-          "title": "Fix grammar error - change 'an CircuitVerse' to 'a CircuitVerse' in LMS integration docs",
-          "occured_at": "2025-12-24T17:17:32Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/461",
-          "points": 5,
-          "contributor": "akshitvigg",
+          "type": "PR opened",
+          "title": "justify text alignment in documentation",
+          "occured_at": "2025-12-30T15:15:24Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/483",
+          "points": 2,
+          "contributor": "haaasini01",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "Enhancement - Add Boolean expressions to all logic gates in Chapter 4",
+          "occured_at": "2025-12-28T14:39:11Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/477",
+          "points": 2,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
         },
         {
           "type": "Issue opened",
-          "title": "Fix duplicated words in documentation files",
-          "occured_at": "2025-12-30T11:16:59Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/480",
+          "title": "Stray character displayed in the truth table in Canonical Functions subchapterz",
+          "occured_at": "2025-12-31T15:31:01Z",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/744",
           "points": 1,
-          "contributor": "akshitvigg",
+          "contributor": "haaasini01",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Feature Request - Enable justified text for docs content",
+          "occured_at": "2025-12-30T14:15:28Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/482",
+          "points": 1,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Enhancement - Boolean expressions for logic gates in Chapter 4",
+          "occured_at": "2025-12-28T12:28:32Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/476",
+          "points": 1,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
         }
       ]
     },
@@ -1669,13 +1614,94 @@
         },
         {
           "type": "Issue opened",
-          "title": "CircuitVerse Logo on Top-Left Does Not Redirect to Main Website",
+          "title": "CircuitVerse Logo in Footer Does Not Redirect to Main Website",
           "occured_at": "2025-12-27T21:27:23Z",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/37",
           "points": 1,
           "contributor": "manmeetsantre",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/190877081?v=4"
+        }
+      ]
+    },
+    {
+      "username": "SouparnaChatterjee",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4",
+      "role": "Contributor",
+      "total_points": 7,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue opened": {
+          "count": 3,
+          "points": 3
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-26",
+          "count": 4,
+          "points": 6
+        },
+        {
+          "date": "2025-12-25",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "feat(simulator) - add confirmation dialog before clearing canvas",
+          "occured_at": "2025-12-26T20:24:59Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/702",
+          "points": 2,
+          "contributor": "SouparnaChatterjee",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "feat(simulator) - add confirmation dialog before clearing canvas",
+          "occured_at": "2025-12-26T20:24:59Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/702",
+          "points": 2,
+          "contributor": "SouparnaChatterjee",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Feature - Add confirmation dialog before clearing Vue simulator canvas",
+          "occured_at": "2025-12-26T19:31:59Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/701",
+          "points": 1,
+          "contributor": "SouparnaChatterjee",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Drag panel position handling & text-selection behavior in Vue simulator",
+          "occured_at": "2025-12-25T16:07:24Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/699",
+          "points": 1,
+          "contributor": "SouparnaChatterjee",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Feature - Add confirmation dialog before clearing Vue simulator canvas",
+          "occured_at": "2025-12-26T19:31:59Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/701",
+          "points": 1,
+          "contributor": "SouparnaChatterjee",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4"
         }
       ]
     },
@@ -1855,77 +1881,6 @@
           "contributor": "Teesta-Mukherjee",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168867474?v=4"
-        }
-      ]
-    },
-    {
-      "username": "haaasini01",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
-      "role": "Contributor",
-      "total_points": 6,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue opened": {
-          "count": 2,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-30",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2025-12-28",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "justify text alignment in documentation",
-          "occured_at": "2025-12-30T15:15:24Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/483",
-          "points": 2,
-          "contributor": "haaasini01",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "Enhancement - Add Boolean expressions to all logic gates in Chapter 4",
-          "occured_at": "2025-12-28T14:39:11Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/477",
-          "points": 2,
-          "contributor": "haaasini01",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Feature Request - Enable justified text for docs content",
-          "occured_at": "2025-12-30T14:15:28Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/482",
-          "points": 1,
-          "contributor": "haaasini01",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Enhancement - Boolean expressions for logic gates in Chapter 4",
-          "occured_at": "2025-12-28T12:28:32Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/476",
-          "points": 1,
-          "contributor": "haaasini01",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
         }
       ]
     },
@@ -2132,6 +2087,52 @@
           "contributor": "themradul07",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4"
+        }
+      ]
+    },
+    {
+      "username": "akshitvigg",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
+      "role": "Contributor",
+      "total_points": 3,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-30",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "docs - fix duplicated words in documentation",
+          "occured_at": "2025-12-30T11:27:27Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/481",
+          "points": 2,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Fix duplicated words in documentation files",
+          "occured_at": "2025-12-30T11:16:59Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/480",
+          "points": 1,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
         }
       ]
     },

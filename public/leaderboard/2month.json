@@ -1,6 +1,6 @@
 {
   "period": "2month",
-  "updatedAt": 1767184169972,
+  "updatedAt": 1767205346309,
   "startDate": "2025-11-01",
   "endDate": "2025-12-31",
   "hiddenRoles": [],
@@ -1281,11 +1281,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4",
       "role": "Contributor",
-      "total_points": 51,
+      "total_points": 53,
       "activity_breakdown": {
         "PR opened": {
-          "count": 13,
-          "points": 26
+          "count": 14,
+          "points": 28
         },
         "PR merged": {
           "count": 4,
@@ -1336,6 +1336,11 @@
           "date": "2025-12-07",
           "count": 2,
           "points": 3
+        },
+        {
+          "date": "2025-12-31",
+          "count": 1,
+          "points": 2
         },
         {
           "date": "2025-12-30",
@@ -1464,6 +1469,16 @@
           "title": "fix - correct typo in system requirements filename and references (#444)",
           "occured_at": "2025-12-07T17:35:27Z",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/445",
+          "points": 2,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "fix - add white background to improve image visibility in dark mode",
+          "occured_at": "2025-12-31T17:01:43Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/484",
           "points": 2,
           "contributor": "senutpal",
           "contributor_name": null,
@@ -2192,11 +2207,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4",
       "role": "Contributor",
-      "total_points": 22,
+      "total_points": 26,
       "activity_breakdown": {
         "PR opened": {
-          "count": 4,
-          "points": 8
+          "count": 6,
+          "points": 12
         },
         "PR merged": {
           "count": 2,
@@ -2217,6 +2232,11 @@
           "date": "2025-12-16",
           "count": 2,
           "points": 3
+        },
+        {
+          "date": "2025-12-31",
+          "count": 2,
+          "points": 4
         },
         {
           "date": "2025-12-29",
@@ -2255,6 +2275,26 @@
           "title": "Fix typos, spelling errors, and grammar across simulator, docs, and locales",
           "occured_at": "2025-12-16T10:34:08Z",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6475",
+          "points": 2,
+          "contributor": "himanshujays29",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "Fix contributor name overflow in profile card layout",
+          "occured_at": "2025-12-31T16:33:42Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/56",
+          "points": 2,
+          "contributor": "himanshujays29",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "chore - update aws-sdk-s3 to fix security vulnerability",
+          "occured_at": "2025-12-31T14:46:16Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6535",
           "points": 2,
           "contributor": "himanshujays29",
           "contributor_name": null,
@@ -3266,7 +3306,7 @@
         },
         {
           "type": "Issue opened",
-          "title": "CircuitVerse Logo on Top-Left Does Not Redirect to Main Website",
+          "title": "CircuitVerse Logo in Footer Does Not Redirect to Main Website",
           "occured_at": "2025-12-27T21:27:23Z",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/37",
           "points": 1,
@@ -3525,6 +3565,102 @@
           "contributor": "bhumika-ks31",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/204588257?v=4"
+        }
+      ]
+    },
+    {
+      "username": "haaasini01",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
+      "role": "Contributor",
+      "total_points": 9,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 6
+        },
+        "Issue opened": {
+          "count": 3,
+          "points": 3
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-31",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-30",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-28",
+          "count": 2,
+          "points": 3
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "Remove stray char from truth table in Canonical Functions subchapter",
+          "occured_at": "2025-12-31T15:47:16Z",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/745",
+          "points": 2,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "justify text alignment in documentation",
+          "occured_at": "2025-12-30T15:15:24Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/483",
+          "points": 2,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "Enhancement - Add Boolean expressions to all logic gates in Chapter 4",
+          "occured_at": "2025-12-28T14:39:11Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/477",
+          "points": 2,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Stray character displayed in the truth table in Canonical Functions subchapterz",
+          "occured_at": "2025-12-31T15:31:01Z",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/issues/744",
+          "points": 1,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Feature Request - Enable justified text for docs content",
+          "occured_at": "2025-12-30T14:15:28Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/482",
+          "points": 1,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Enhancement - Boolean expressions for logic gates in Chapter 4",
+          "occured_at": "2025-12-28T12:28:32Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/476",
+          "points": 1,
+          "contributor": "haaasini01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
         }
       ]
     },
@@ -3983,77 +4119,6 @@
           "contributor": "satu0king",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/2092958?v=4"
-        }
-      ]
-    },
-    {
-      "username": "haaasini01",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4",
-      "role": "Contributor",
-      "total_points": 6,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        },
-        "Issue opened": {
-          "count": 2,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-30",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2025-12-28",
-          "count": 2,
-          "points": 3
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "justify text alignment in documentation",
-          "occured_at": "2025-12-30T15:15:24Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/483",
-          "points": 2,
-          "contributor": "haaasini01",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "Enhancement - Add Boolean expressions to all logic gates in Chapter 4",
-          "occured_at": "2025-12-28T14:39:11Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/477",
-          "points": 2,
-          "contributor": "haaasini01",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Feature Request - Enable justified text for docs content",
-          "occured_at": "2025-12-30T14:15:28Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/482",
-          "points": 1,
-          "contributor": "haaasini01",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Enhancement - Boolean expressions for logic gates in Chapter 4",
-          "occured_at": "2025-12-28T12:28:32Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/476",
-          "points": 1,
-          "contributor": "haaasini01",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/180000253?v=4"
         }
       ]
     },
