@@ -9,7 +9,7 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import Link from "next/link";
-import { Medal, Trophy, Filter, X } from "lucide-react";
+import { Medal, Trophy, Filter, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useMemo, useState, useEffect } from "react";
 import { sortEntries, type SortBy } from "@/lib/leaderboard";
@@ -17,6 +17,13 @@ import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import ActivityTrendChart from "../../components/Leaderboard/ActivityTrendChart";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 export type LeaderboardEntry = {
   username: string;
@@ -72,6 +79,53 @@ export default function LeaderboardView({
 
   // Search query state
   const [searchQuery, setSearchQuery] = useState("");
+
+  // Page size state - default to showing all entries (preserve existing behavior)
+  const [pageSize, setPageSize] = useState<number>(() => {
+    const limit = searchParams.get('limit');
+    if (limit) {
+      const parsed = parseInt(limit, 10);
+      if ([10, 25, 50, 100].includes(parsed)) {
+        return parsed;
+      }
+    }
+    // Default: show all entries (preserve existing behavior)
+    return Infinity;
+  });
+
+  useEffect(() => {
+    const limit = searchParams.get('limit');
+    if (limit) {
+      const parsed = parseInt(limit, 10);
+      if ([10, 25, 50, 100].includes(parsed)) {
+        setPageSize(parsed);
+      } else {
+        setPageSize(Infinity);
+      }
+    } else {
+      setPageSize(Infinity);
+    }
+  }, [searchParams]);
+
+  // Current page state - default to page 1
+  const [currentPage, setCurrentPage] = useState<number>(() => {
+    const page = searchParams.get('page');
+    if (page) {
+      const parsed = parseInt(page, 10);
+      return parsed > 0 ? parsed : 1;
+    }
+    return 1;
+  });
+
+  useEffect(() => {
+    const page = searchParams.get('page');
+    if (page) {
+      const parsed = parseInt(page, 10);
+      setCurrentPage(parsed > 0 ? parsed : 1);
+    } else {
+      setCurrentPage(1);
+    }
+  }, [searchParams]);
 
   // sorting
   const [sortBy, setSortBy] = useState<SortBy>(() => {
@@ -149,6 +203,50 @@ export default function LeaderboardView({
     return filtered;
   }, [entries, selectedRoles, searchQuery, sortBy]);
 
+  // Calculate total pages
+  const totalPages = useMemo(() => {
+    if (pageSize === Infinity) {
+      return 1; // Show all entries on one "page"
+    }
+    return Math.ceil(filteredEntries.length / pageSize);
+  }, [filteredEntries.length, pageSize]);
+
+  // Slice entries based on pageSize and currentPage
+  const paginatedEntries = useMemo(() => {
+    if (pageSize === Infinity) {
+      return filteredEntries;
+    }
+    const start = (currentPage - 1) * pageSize;
+    const end = start + pageSize;
+    return filteredEntries.slice(start, end);
+  }, [filteredEntries, pageSize, currentPage]);
+
+  // Reset to page 1 when pageSize changes or when filteredEntries change significantly
+  useEffect(() => {
+    if (currentPage > totalPages && totalPages > 0) {
+      // If current page is beyond total pages, reset to page 1
+      const params = new URLSearchParams(searchParams.toString());
+      params.delete("page");
+      if(typeof window !== 'undefined') {
+        window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
+      }
+      setCurrentPage(1);
+    }
+  }, [totalPages, currentPage, searchParams, pathname]);
+
+  // Reset to page 1 when search query changes
+  useEffect(() => {
+    if (currentPage !== 1 && pageSize !== Infinity) {
+      const params = new URLSearchParams(searchParams.toString());
+      params.delete("page");
+      setCurrentPage(1);
+      if(typeof window !== 'undefined') {
+        window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchQuery]); // Only reset when search query changes
+
   const toggleRole = (role: string) => {
     const newSelected = new Set(selectedRoles);
     if (newSelected.has(role)) {
@@ -156,7 +254,18 @@ export default function LeaderboardView({
     } else {
       newSelected.add(role);
     }
-    updateRolesParam(newSelected);
+    // Reset to page 1 when roles change
+    const params = new URLSearchParams(searchParams.toString());
+    if (newSelected.size > 0) {
+      params.set("roles", Array.from(newSelected).join(","));
+    } else {
+      params.delete("roles");
+    }
+    params.delete("page"); // Reset pagination
+    if(typeof window !== 'undefined') {
+      window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
+    }
+    setCurrentPage(1);
   };
 
   const clearFilters = () => {
@@ -169,11 +278,63 @@ export default function LeaderboardView({
   params.delete("roles");
   params.delete("sort");
   params.delete("order");
+  // Reset to page 1 when clearing filters
+  params.delete("page");
+  setCurrentPage(1);
+  // Note: We preserve the limit param when clearing filters
 
   window.history.replaceState(null, "", `${pathname}?${params.toString()}`);
   setSearchQuery("");
   setSortBy("points");
 };
+
+  const updatePageSize = (newPageSize: number | "all") => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (newPageSize === "all" || newPageSize === Infinity) {
+      params.delete("limit");
+      setPageSize(Infinity);
+    } else {
+      params.set("limit", newPageSize.toString());
+      setPageSize(newPageSize);
+    }
+    // Reset to page 1 when page size changes
+    params.delete("page");
+    setCurrentPage(1);
+    if(typeof window !== 'undefined') {
+      window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
+    }
+  };
+
+  const updatePage = (page: number) => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (page === 1) {
+      params.delete("page");
+    } else {
+      params.set("page", page.toString());
+    }
+    setCurrentPage(page);
+    if(typeof window !== 'undefined') {
+      window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
+    }
+  };
+
+  const goToNextPage = () => {
+    if (currentPage < totalPages) {
+      updatePage(currentPage + 1);
+    }
+  };
+
+  const goToPreviousPage = () => {
+    if (currentPage > 1) {
+      updatePage(currentPage - 1);
+    }
+  };
+
+  const goToPage = (page: number) => {
+    if (page >= 1 && page <= totalPages) {
+      updatePage(page);
+    }
+  };
  
 
   const updateRolesParam = (roles: Set<string>) => {
@@ -345,14 +506,15 @@ export default function LeaderboardView({
                                       if(opt.key === 'points'){
                                         params.delete('sort');
                                         params.delete('order');
-                                        if(typeof window !== 'undefined') 
-                                          window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
                                       }else{
                                         params.set('sort', opt.key);
                                         params.set('order', 'desc');
-                                        if(typeof window !== 'undefined') 
-                                          window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
                                       }
+                                      // Reset to page 1 when sort changes
+                                      params.delete('page');
+                                      setCurrentPage(1);
+                                      if(typeof window !== 'undefined') 
+                                        window.history.replaceState(null, '', `${pathname}?${params.toString()}`);
                                     }}
                                     className={cn('w-full text-left px-4 py-2 cursor-pointer rounded-md text-sm', active ? 'bg-[#50B78B] text-white' : 'hover:bg-muted')}
                                     aria-pressed={active}
@@ -397,21 +559,62 @@ export default function LeaderboardView({
           </div>
 
           {/* Period Selector */}
-          <div className="flex gap-2 mb-8 border-b">
-            {(["week", "month", "year"] as const).map((p) => (
-              <Link
-                key={p}
-                href={`/leaderboard/${p}`}
-                className={cn(
-                  "px-4 py-2 font-medium transition-colors border-b-2 relative outline-none focus-visible:ring-2 focus-visible:ring-[#50B78B]/60 rounded-sm",
-                  period === p
-                    ? "border-[#50B78B] text-[#50B78B] bg-linear-to-t from-[#50B78B]/12 to-transparent dark:from-[#50B78B]/12"
-                    : "border-transparent text-muted-foreground hover:text-[#50B78B]"
-                )}
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8 border-b">
+            <div className="flex gap-2">
+              {(["week", "month", "year"] as const).map((p) => {
+                // Preserve query parameters when switching periods, but reset page to 1
+                const params = new URLSearchParams(searchParams.toString());
+                params.delete("page"); // Reset pagination when switching periods
+                const href = `/leaderboard/${p}${params.toString() ? `?${params.toString()}` : ''}`;
+                return (
+                  <Link
+                    key={p}
+                    href={href}
+                    className={cn(
+                      "px-4 py-2 font-medium transition-colors border-b-2 relative outline-none focus-visible:ring-2 focus-visible:ring-[#50B78B]/60 rounded-sm",
+                      period === p
+                        ? "border-[#50B78B] text-[#50B78B] bg-linear-to-t from-[#50B78B]/12 to-transparent dark:from-[#50B78B]/12"
+                        : "border-transparent text-muted-foreground hover:text-[#50B78B]"
+                    )}
+                  >
+                    {periodLabels[p]}
+                  </Link>
+                );
+              })}
+            </div>
+            
+            {/* Entries per page selector */}
+            <div className="flex items-center gap-2">
+              <label htmlFor="page-size-select" className="text-sm text-muted-foreground whitespace-nowrap">
+                Show
+              </label>
+              <Select
+                value={pageSize === Infinity ? "all" : pageSize.toString()}
+                onValueChange={(value) => {
+                  if (value === "all") {
+                    updatePageSize("all");
+                  } else {
+                    updatePageSize(parseInt(value, 10));
+                  }
+                }}
               >
-                {periodLabels[p]}
-              </Link>
-            ))}
+                <SelectTrigger
+                  id="page-size-select"
+                  size="sm"
+                  className="h-9 w-24 border border-[#50B78B]/30 hover:bg-[#50B78B]/20 focus-visible:ring-2 focus-visible:ring-[#50B78B]"
+                  aria-label="Select number of entries per page"
+                >
+                  <SelectValue placeholder="All" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="10">10</SelectItem>
+                  <SelectItem value="25">25</SelectItem>
+                  <SelectItem value="50">50</SelectItem>
+                  <SelectItem value="100">100</SelectItem>
+                  <SelectItem value="all">All</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
           </div>
 
           {/* Leaderboard */}
@@ -425,8 +628,11 @@ export default function LeaderboardView({
             </Card>
           ) : (
             <div className="space-y-4">
-              {filteredEntries.map((entry, index) => {
-                const rank = index + 1;
+              {paginatedEntries.map((entry, index) => {
+                // Calculate rank based on position in filtered list, accounting for pagination offset
+                const rank = pageSize === Infinity 
+                  ? index + 1 
+                  : (currentPage - 1) * pageSize + index + 1;
                 const isTopThree = rank <= 3;
 
                 return (
@@ -552,6 +758,103 @@ export default function LeaderboardView({
                   </Card>
                 );
               })}
+            </div>
+          )}
+
+          {/* Pagination Controls */}
+          {pageSize !== Infinity && totalPages > 1 && filteredEntries.length > 0 && (
+            <div className="flex items-center justify-center gap-2 mt-8">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={goToPreviousPage}
+                disabled={currentPage === 1}
+                className="h-9 border border-[#50B78B]/30 hover:bg-[#50B78B]/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                aria-label="Go to previous page"
+              >
+                <ChevronLeft className="h-4 w-4" />
+                <span className="sr-only">Previous</span>
+              </Button>
+
+              <div className="flex items-center gap-1">
+                {/* Calculate which page numbers to show */}
+                {(() => {
+                  const pages: number[] = [];
+                  
+                  if (totalPages <= 7) {
+                    // Show all pages if 7 or fewer
+                    for (let i = 1; i <= totalPages; i++) {
+                      pages.push(i);
+                    }
+                  } else {
+                    // Always show first page
+                    pages.push(1);
+                    
+                    if (currentPage <= 4) {
+                      // Show first 5 pages, then ellipsis, then last
+                      for (let i = 2; i <= 5; i++) {
+                        pages.push(i);
+                      }
+                      pages.push(-1); // -1 represents ellipsis
+                      pages.push(totalPages);
+                    } else if (currentPage >= totalPages - 3) {
+                      // Show first, ellipsis, then last 5 pages
+                      pages.push(-1); // -1 represents ellipsis
+                      for (let i = totalPages - 4; i <= totalPages; i++) {
+                        pages.push(i);
+                      }
+                    } else {
+                      // Show first, ellipsis, current-1, current, current+1, ellipsis, last
+                      pages.push(-1); // -1 represents ellipsis
+                      pages.push(currentPage - 1);
+                      pages.push(currentPage);
+                      pages.push(currentPage + 1);
+                      pages.push(-1); // -1 represents ellipsis
+                      pages.push(totalPages);
+                    }
+                  }
+
+                  return pages.map((pageNum, idx) => {
+                    if (pageNum === -1) {
+                      return (
+                        <span key={`ellipsis-${idx}`} className="px-2 text-muted-foreground">
+                          …
+                        </span>
+                      );
+                    }
+                    return (
+                      <Button
+                        key={pageNum}
+                        variant={currentPage === pageNum ? "default" : "ghost"}
+                        size="sm"
+                        onClick={() => goToPage(pageNum)}
+                        className={cn(
+                          "h-9 w-9 p-0",
+                          currentPage === pageNum
+                            ? "bg-[#50B78B] text-white hover:bg-[#50B78B]/90"
+                            : "hover:bg-[#50B78B]/20 hover:text-[#50B78B]"
+                        )}
+                        aria-label={`Go to page ${pageNum}`}
+                        aria-current={currentPage === pageNum ? "page" : undefined}
+                      >
+                        {pageNum}
+                      </Button>
+                    );
+                  });
+                })()}
+              </div>
+
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={goToNextPage}
+                disabled={currentPage === totalPages}
+                className="h-9 border border-[#50B78B]/30 hover:bg-[#50B78B]/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                aria-label="Go to next page"
+              >
+                <ChevronRight className="h-4 w-4" />
+                <span className="sr-only">Next</span>
+              </Button>
             </div>
           )}
         </div>
