@@ -1,6 +1,6 @@
 {
   "period": "year",
-  "updatedAt": 1767575548992,
+  "updatedAt": 1767594580169,
   "startDate": "2025-01-05",
   "endDate": "2026-01-05",
   "hiddenRoles": [],
@@ -4165,15 +4165,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Contributor",
-      "total_points": 127,
+      "total_points": 134,
       "activity_breakdown": {
         "PR opened": {
-          "count": 17,
-          "points": 34
+          "count": 18,
+          "points": 36
         },
         "PR merged": {
-          "count": 14,
-          "points": 70
+          "count": 15,
+          "points": 75
         },
         "Issue opened": {
           "count": 23,
@@ -4248,6 +4248,11 @@
         },
         {
           "date": "2025-10-09",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-01-05",
           "count": 2,
           "points": 7
         },
@@ -4425,6 +4430,13 @@
         },
         {
           "type": "PR opened",
+          "occured_at": "2026-01-05T04:44:58Z",
+          "title": "Update Tauri release workflow for additional branch and paths",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/716",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
           "occured_at": "2026-01-04T16:34:22Z",
           "title": "Fix Tauri CI",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/715",
@@ -4519,6 +4531,13 @@
           "occured_at": "2025-10-09T08:25:11Z",
           "title": "chore - add funding json",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6280",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-05T04:58:28Z",
+          "title": "Update Tauri release workflow for additional branch and paths",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/716",
           "points": 5
         },
         {
@@ -7185,15 +7204,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/194053810?v=4",
       "role": "Contributor",
-      "total_points": 73,
+      "total_points": 78,
       "activity_breakdown": {
         "PR opened": {
           "count": 12,
           "points": 24
         },
         "PR merged": {
-          "count": 8,
-          "points": 40
+          "count": 9,
+          "points": 45
         },
         "Issue opened": {
           "count": 9,
@@ -7235,6 +7254,11 @@
           "date": "2026-01-02",
           "count": 5,
           "points": 16
+        },
+        {
+          "date": "2026-01-05",
+          "count": 1,
+          "points": 5
         }
       ],
       "raw_activities": [
@@ -7348,6 +7372,13 @@
           "occured_at": "2025-12-26T13:48:12Z",
           "title": "fix - Fix footer background not spanning full viewport width",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/14",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-05T05:57:26Z",
+          "title": "Add Hardik Sachdeva to core team on About page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6559",
           "points": 5
         },
         {
@@ -9465,7 +9496,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4",
       "role": "Contributor",
-      "total_points": 38,
+      "total_points": 39,
       "activity_breakdown": {
         "PR opened": {
           "count": 8,
@@ -9476,8 +9507,8 @@
           "points": 15
         },
         "Issue opened": {
-          "count": 7,
-          "points": 7
+          "count": 8,
+          "points": 8
         }
       },
       "daily_activity": [
@@ -9518,6 +9549,11 @@
         },
         {
           "date": "2025-12-24",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-01-05",
           "count": 1,
           "points": 1
         }
@@ -9619,6 +9655,13 @@
           "occured_at": "2025-12-24T13:38:03Z",
           "title": "perf - improve draggable panel performance in simulator",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6504",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T04:27:59Z",
+          "title": "Docs - Improve README with screenshots, badges, and features section",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/118",
           "points": 1
         },
         {

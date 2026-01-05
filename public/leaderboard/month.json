@@ -1,6 +1,6 @@
 {
   "period": "month",
-  "updatedAt": 1767575549002,
+  "updatedAt": 1767594580179,
   "startDate": "2025-12-06",
   "endDate": "2026-01-05",
   "hiddenRoles": [],
@@ -11,15 +11,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/194053810?v=4",
       "role": "Contributor",
-      "total_points": 73,
+      "total_points": 78,
       "activity_breakdown": {
         "PR opened": {
           "count": 12,
           "points": 24
         },
         "PR merged": {
-          "count": 8,
-          "points": 40
+          "count": 9,
+          "points": 45
         },
         "Issue opened": {
           "count": 9,
@@ -61,6 +61,11 @@
           "date": "2026-01-02",
           "count": 5,
           "points": 16
+        },
+        {
+          "date": "2026-01-05",
+          "count": 1,
+          "points": 5
         }
       ],
       "activities": [
@@ -174,6 +179,13 @@
           "occured_at": "2025-12-26T13:48:12Z",
           "title": "fix - Fix footer background not spanning full viewport width",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/14",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-05T05:57:26Z",
+          "title": "Add Hardik Sachdeva to core team on About page",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6559",
           "points": 5
         },
         {
@@ -2079,7 +2091,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4",
       "role": "Contributor",
-      "total_points": 25,
+      "total_points": 26,
       "activity_breakdown": {
         "PR opened": {
           "count": 4,
@@ -2090,8 +2102,8 @@
           "points": 10
         },
         "Issue opened": {
-          "count": 7,
-          "points": 7
+          "count": 8,
+          "points": 8
         }
       },
       "daily_activity": [
@@ -2117,6 +2129,11 @@
         },
         {
           "date": "2025-12-24",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-01-05",
           "count": 1,
           "points": 1
         }
@@ -2187,6 +2204,13 @@
         },
         {
           "type": "Issue opened",
+          "occured_at": "2026-01-05T04:27:59Z",
+          "title": "Docs - Improve README with screenshots, badges, and features section",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/118",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
           "occured_at": "2026-01-04T16:33:46Z",
           "title": "Feature - Add share button to leaderboard page",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/108",
@@ -2212,6 +2236,84 @@
           "title": "Improve readability, grammar, and MDX best practices in Chapter 1 Introduction",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/487",
           "points": 1
+        }
+      ]
+    },
+    {
+      "username": "tachyons",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
+      "role": "Contributor",
+      "total_points": 21,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 6
+        },
+        "PR merged": {
+          "count": 3,
+          "points": 15
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-01-05",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-01-04",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2026-01-01",
+          "count": 2,
+          "points": 7
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T04:44:58Z",
+          "title": "Update Tauri release workflow for additional branch and paths",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/716",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-04T16:34:22Z",
+          "title": "Fix Tauri CI",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/715",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-01T16:20:47Z",
+          "title": "chore - bump aws-sdk-s3 to fix security advisory",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6541",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-05T04:58:28Z",
+          "title": "Update Tauri release workflow for additional branch and paths",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/716",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-04T16:58:18Z",
+          "title": "Fix Tauri CI",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/715",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-01T16:24:09Z",
+          "title": "chore - bump aws-sdk-s3 to fix security advisory",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6541",
+          "points": 5
         }
       ]
     },
@@ -2744,65 +2846,6 @@
           "title": "🐞 Bug - Docs UI - Content not responsive on mobile view (large empty margins).",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6442",
           "points": 1
-        }
-      ]
-    },
-    {
-      "username": "tachyons",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
-      "role": "Contributor",
-      "total_points": 14,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        },
-        "PR merged": {
-          "count": 2,
-          "points": 10
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-01-04",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2026-01-01",
-          "count": 2,
-          "points": 7
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-04T16:34:22Z",
-          "title": "Fix Tauri CI",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/715",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-01T16:20:47Z",
-          "title": "chore - bump aws-sdk-s3 to fix security advisory",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6541",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-04T16:58:18Z",
-          "title": "Fix Tauri CI",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/715",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-01T16:24:09Z",
-          "title": "chore - bump aws-sdk-s3 to fix security advisory",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6541",
-          "points": 5
         }
       ]
     },
