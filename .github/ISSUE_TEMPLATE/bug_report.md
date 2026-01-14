@@ -1,7 +1,7 @@
 ---
 name: "🐞 Bug report"
 about: Report a bug or unexpected behavior while using Leaderboard
-labels: "🐞 bug"
+labels: ["🐞 bug"]
 ---
 ## Describe the bug
 A clear and concise description of what the bug is.
